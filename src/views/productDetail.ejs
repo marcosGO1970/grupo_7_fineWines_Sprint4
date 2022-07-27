@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('partials/head') %>
+    <link rel="stylesheet" href="/css/partials.css">
+    <link rel="stylesheet" href="/css/productDetail.css">
+    <title>Detalle de Producto</title>
+</head>
+
+<body>
+
+    <%- include('./partials/header.ejs') %>
+  
+    <section class="banner">
+        <div class="portada">
+            <img src="/images/portada.jpg" alt="Banner principal">
+            <p> CONSEGUÍ EL MEJOR PRECIO<br> EN LAS MEJORES BODEGAS DE ARGENTINA</p>
+        </div>
+    </section>
+    
+    <main>
+        <%- include('./partials/product.ejs')  %> 
+
+    </main>
+    <br>
+
+        <%- include('./partials/footer.ejs') %>
+</body>
+</html>

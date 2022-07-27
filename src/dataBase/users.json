@@ -1,0 +1,11 @@
+[{
+    "name": "Luis",
+    "lastName": "Perez",
+    "userName": "SuperMan",
+    "email": "superman@gmail.com",
+    "birthday": "01/01/2001 ",
+    "address": "La paz 1501",
+    "image": "foto.jpg",
+    "password": "1234",
+    "type": "client"
+}]
