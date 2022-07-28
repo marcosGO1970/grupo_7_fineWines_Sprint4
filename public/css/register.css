@@ -131,7 +131,13 @@ input.foto{
 .login-form button:hover{
     background-color: #0331ea;
 }
-
+textarea.form-input {
+    min-height: 100px;
+    min-width: 55%;
+    resize: both;
+    padding: 15px;
+    border-radius: 4px;
+}
 @media (max-width: 480px){
 
     .articulo{

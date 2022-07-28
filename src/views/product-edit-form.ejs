@@ -19,38 +19,49 @@
         <!------- Formulario ---------->
         <div class="form-container">
         <h2 class="register-title">Formulario de Edicion De Productos</h2>
-        <form class="register-form" action="/login" method="GET">
+        <form class="register-form" action="/products" method="POST" enctype="multipart/form-data">				
             <div class="form-div">
-                <label for="nombres" class="form-label">Nombre del Producto</label>
-                <input type="text" name="nombres" id="nombres" required>
+                <label for="name" class="form-label">Nombre del producto:</label>
+                <input type="text" id="name" name="name" placeholder="Ej: Cordero  Piel de Lobo" class="form-input">
             </div>
             <div class="form-div">
-                <label for="apellidos" class="form-label">Precio del Producto</label>
-                <input type="text" name="apellidos" required>
+                <label for="bodega" class="form-label">Bodega:</label>
+                <input type="bodega" id="bodega" name="bodega" placeholder="Ej: Etchart" class="form-input">
             </div>
             <div class="form-div">
-                <label for="nombreUsuario" class="form-label">Descuento</label>
-                <input type="text" name="nombreUsuario" id="nombreUsuario" required>
+                <label for="varietal" class="form-label">Varietal:</label>
+                <input type="text" id="varietal" name="varietal" placeholder="Ej: Tinto" class="form-input">
             </div>
             <div class="form-div">
-                <label for="email" class="form-label">Categoria</label>
-                <input type="email" name="email" id="email" required>
-            </div>   
+                <label for="price" class="form-label">Precio del producto:</label>
+                <input type="number" id="price" name="price" placeholder="Ej: 1000" class="form-input">
+            </div>
             <div class="form-div">
-                <label for="domicilio" class="form-label">Descripcion</label>
-                <input type="text" name="domicilio" id="domicilio">
-            </div>                           
+                <label for="discount" class="form-label">Descuento:</label>
+                <input type="number" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
+            </div>
             <div class="form-div">
-                <label for="fotoUsuario" class="form-label">Foto de Producto</label>
-                <input class="foto" type="file" name="fotoUsuario" id="fotoUsuario" accept=".png, .jpeg, .jpg">
+                <label for="image" class="form-label">Foto:</label>
+                <input type="file" id="image" accept=".png, .jpeg, .jpg" name="image" placeholder="Ingrese una foto"  multiple required class="form-input">
+            </div>
+            <div class="form-div">
+                <label for="category" class="form-label">Categoría:</label>
+                <select name="category" id="category" class="form-input">
+                    <option value="">Elegí</option>
+                    <option value="in-sale">En oferta</option>
+                    <option value="visited">Últimos visitados</option>
+                </select>
+            </div>
+            <div class="form-div">
+                <label for="description" class="form-label">Descripción:</label>
+                <textarea name="description" id="description" class="form-input"></textarea>
             </div>
             <div class="form-buttons">
-                <button type="submit" class="submit-button">Enviar</button>
+                <button type="submit">Guardar producto</button>
                 <button type="reset" class="reset-button">Limpiar</button>
-            </div>       
-        </form>
-        <br>
-        <br>
+            </div>
+    </form>
+    <br><br><br>
     </div>
        
         <br>

@@ -16,11 +16,19 @@
 			<form class="register-form" action="/products" method="POST" enctype="multipart/form-data">				
 					<div class="form-div">
 						<label for="name" class="form-label">Nombre del producto:</label>
-						<input type="text" id="name" name="name" placeholder="Ej: Zapatillas Reebok" class="form-input">
+						<input type="text" id="name" name="name" placeholder="Ej: Cordero  Piel de Lobo" class="form-input">
+					</div>
+					<div class="form-div">
+						<label for="bodega" class="form-label">Bodega:</label>
+						<input type="bodega" id="bodega" name="bodega" placeholder="Ej: Etchart" class="form-input">
+					</div>
+					<div class="form-div">
+						<label for="varietal" class="form-label">Varietal:</label>
+						<input type="text" id="varietal" name="varietal" placeholder="Ej: Tinto" class="form-input">
 					</div>
 					<div class="form-div">
 						<label for="price" class="form-label">Precio del producto:</label>
-						<input type="number" id="price" name="price" placeholder="Ej: 5678" class="form-input">
+						<input type="number" id="price" name="price" placeholder="Ej: 1000" class="form-input">
 					</div>
 					<div class="form-div">
 						<label for="discount" class="form-label">Descuento:</label>
@@ -43,11 +51,16 @@
 						<textarea name="description" id="description" class="form-input"></textarea>
 					</div>
 					<div class="form-buttons">
-						<button type="submit" class="buy-now-button">Guardar producto</button>
+						<button type="submit">Guardar producto</button>
+						<button type="reset" class="reset-button">Limpiar</button>
 					</div>
 			</form>
 			<br><br><br>
 	</div>
+	<br>
+	<br>
+		<a class='form-buttons' href="/products/edit/1">Editar producto?</a>
+        <br>
 </main>
 	<!-- /todos los productos -->
 

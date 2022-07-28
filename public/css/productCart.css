@@ -310,7 +310,7 @@ footer{
         font-weight: 400;}
         /*-----Div article-container ----------*/
     .article-container{
-        max-width: 80%;
+        max-width: 800px;
         margin: 20px auto 0;
         box-shadow: 0px 0px 10px rgb(100 100 100);
     }    
