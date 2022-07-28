@@ -1,5 +1,17 @@
 /*HEADER*/
 a {color: #000;}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    background-color: #F5F5F5;
+}
+
 header{
     background-color:  #FFF;
 }
