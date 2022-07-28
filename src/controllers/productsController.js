@@ -67,7 +67,7 @@ const controller = {
 	edit: (req, res) => {
 		console.log('ESTOY USANDO EL EDIT DEL GENERICO')
 		let productToEdit = productModel.find(req.params.id)
-		console.log(productToEdit.image)
+		console.log(productToEdit)
 		res.render('product-edit-form', { productToEdit })
 	},
 

@@ -19,30 +19,30 @@
         <!------- Formulario ---------->
         <div class="form-container">
         <h2 class="register-title">Formulario de Edicion De Productos</h2>
-        <form class="register-form" action="/products" method="POST" enctype="multipart/form-data">				
+        <form class="register-form" action="/products/edit/<%= productToEdit.id %>?_method=PUT" method="POST" enctype="multipart/form-data">				
             <div class="form-div">
                 <label for="name" class="form-label">Nombre del producto:</label>
-                <input type="text" id="name" name="name" placeholder="Ej: Cordero  Piel de Lobo" class="form-input">
+                <input type="text" id="name" name="name" value="<%= productToEdit.name %> " class="form-input">
             </div>
             <div class="form-div">
                 <label for="bodega" class="form-label">Bodega:</label>
-                <input type="bodega" id="bodega" name="bodega" placeholder="Ej: Etchart" class="form-input">
+                <input type="bodega" id="bodega" name="bodega" value="<%= productToEdit.bodega %> " class="form-input">
             </div>
             <div class="form-div">
                 <label for="varietal" class="form-label">Varietal:</label>
-                <input type="text" id="varietal" name="varietal" placeholder="Ej: Tinto" class="form-input">
+                <input type="text" id="varietal" name="varietal" value="<%= productToEdit.varietal %> " class="form-input">
             </div>
             <div class="form-div">
                 <label for="price" class="form-label">Precio del producto:</label>
-                <input type="number" id="price" name="price" placeholder="Ej: 1000" class="form-input">
+                <input type="number" id="price" name="price" value=<%= parseInt(productToEdit.price) %> class="form-input">
             </div>
             <div class="form-div">
                 <label for="discount" class="form-label">Descuento:</label>
-                <input type="number" id="discount" name="discount" placeholder="Ej: 15" class="form-input">
+                <input type="number" id="discount" name="discount" value=<%= parseInt(productToEdit.discount) %>  class="form-input">
             </div>
             <div class="form-div">
                 <label for="image" class="form-label">Foto:</label>
-                <input type="file" id="image" accept=".png, .jpeg, .jpg" name="image" placeholder="Ingrese una foto"  multiple required class="form-input">
+                <input type="file" id="image" accept=".png, .jpeg, .jpg" name="image" value=<%= productToEdit.image[0]%>  multiple required class="form-input">
             </div>
             <div class="form-div">
                 <label for="category" class="form-label">Categoría:</label>
