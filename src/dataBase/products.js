@@ -15,7 +15,7 @@ const products = [
         varietal: "Cara Sur Rosado",
         description: "Etc",
         price: 1800,
-        descuento: 0,
+        descuento: 0.2,
         image: "Cara Sur Rosado - Sebastian Zuccardi - Vino Barreal San Juan.jpg",
         visitado:true
     },

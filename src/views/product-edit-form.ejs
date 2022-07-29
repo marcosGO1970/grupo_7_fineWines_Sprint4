@@ -48,13 +48,13 @@
                 <label for="category" class="form-label">Categoría:</label>
                 <select name="category" id="category" class="form-input">
                     <option value="">Elegí</option>
-                    <option value="in-sale">En oferta</option>
-                    <option value="visited">Últimos visitados</option>
+					<option value="Tinto" <%= productToEdit.category == "Tinto" ? "selected" : "" %>>Tinto</option>
+					<option value="Blanco" <%= productToEdit.category == "Blanco" ? "selected" : "" %>>Blanco</option>
                 </select>
             </div>
             <div class="form-div">
                 <label for="description" class="form-label">Descripción:</label>
-                <textarea name="description" id="description" class="form-input"></textarea>
+                <textarea name="description" id="description" class="form-input"><%= productToEdit.description%></textarea>
             </div>
             <div class="form-buttons">
                 <button type="submit">Guardar producto</button>
