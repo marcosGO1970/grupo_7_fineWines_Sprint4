@@ -14,99 +14,129 @@
   "visitado": false
  },
  {
-        "id": 1,
-        "name": "Angelica Zapata",
-        "bodega": "Angelica Zapata",
-        "varietal": "Malbec",
-        "description": "etc",
-        "price": 2500,
-        "discount": 0 ,
-        "category": "tinto",
-        "image": ["Angelica Zapata Malbec Alta X 750cc. (full).jpg"],
-        "visitado":true
-    },
-    {
-        "id": 2,
-        "name": "José Rioja",
-        "bodega": "Sebastian Zuccardi",
-        "varietal": "Cara Sur Rosado",
-        "description": "Etc",
-        "price": 1800,
-        "discount": 0.2,
-        "category": "tinto",
-        "image": ["Cara Sur Rosado - Sebastian Zuccardi - Vino Barreal San Juan.jpg"],
-        "visitado":true
-    },
-    {
-        "id": 3,
-        "name": "Patricia Lucas",
-        "bodega": "Salentein",
-        "varietal": "Espumante Brut Rose",
-        "description": "Etc",
-        "price": 1600,
-        "discount": 0.2,
-        "category": "tinto",
-        "image": ["Champagne Salentein Espumante Brut Rose 750cc.jpg"],
-        "visitado":true 
-    },    
-    {
-        "id": 4,
-        "name": "Cristiano",
-        "bodega": "DV Catena",
-        "varietal": "Cabernet Malbec",
-        "description": "Etc",
-        "price": 1600,
-        "discount": 0.3,
-        "category": "tinto",
-        "image":[ "DV-CATENA-CABERNET SUAVIGNON-MALBEC.jpg"],
-        "visitado": false
-    },
-    {
-        "id": 5,
-        "name": "Cristiano",
-        "bodega": "DV Catena",
-        "varietal": "Malbec Malbec",
-        "description": "Etc",
-        "price": 3500,
-        "discount": 0,
-        "category": "tinto",
-        "image": ["DV-CATENA-MALBEC-MALBEC.jpg"],
-        "visitado":true
-    },
-    {
-        "id": 6,
-        "name": "Cristiano",
-        "bodega": "Escorihuela Gascon",
-        "varietal": "Gran Reserva Chardonnay",
-        "description": "Etc",
-        "price": 2100,
-        "discount": 0.2,
-        "category": "tinto",
-        "image": ["Escorihuela Gascon Gran Reserva Chardonnay.jpg"],
-        "visitado": false
-    },
-    {
-        "id": 7,
-        "name": "Cristiano",
-        "bodega": "Escorihuela Gascon",
-        "varietal": "Gran Reserva Malbec",
-        "description": "Etc",
-        "price": 1500,
-        "discount": 0.2,
-        "category": "tinto",
-        "image": ["Escorihuela Gascon Gran Reserva Malbec.jpg"],
-        "visitado":false
-    },    
-    {
-        "id": 8,
-        "name": "Cristiano",
-        "bodega": "Escorihuela Gascon",
-        "varietal": "Malbec Full",
-        "description": "Etc",
-        "price": 3500,
-        "discount": 0,
-        "category": "tinto",
-        "image": ["Escorihuela Gascón Malbec Full.jpg"],
-        "visitado": false
-    }
+  "id": 1,
+  "name": "Angelica Zapata",
+  "bodega": "Angelica Zapata",
+  "varietal": "Malbec",
+  "description": "etc",
+  "price": 2500,
+  "discount": 0,
+  "category": "tinto",
+  "image": [
+   "Angelica Zapata Malbec Alta X 750cc. (full).jpg"
+  ],
+  "visitado": true
+ },
+ {
+  "id": 2,
+  "name": "José Rioja",
+  "bodega": "Sebastian Zuccardi",
+  "varietal": "Cara Sur Rosado",
+  "description": "Etc",
+  "price": 1800,
+  "discount": 0.2,
+  "category": "tinto",
+  "image": [
+   "Cara Sur Rosado - Sebastian Zuccardi - Vino Barreal San Juan.jpg"
+  ],
+  "visitado": true
+ },
+ {
+  "id": 3,
+  "name": "Patricia Lucas",
+  "bodega": "Salentein",
+  "varietal": "Espumante Brut Rose",
+  "description": "Etc",
+  "price": 1600,
+  "discount": 0.2,
+  "category": "tinto",
+  "image": [
+   "Champagne Salentein Espumante Brut Rose 750cc.jpg"
+  ],
+  "visitado": true
+ },
+ {
+  "id": 4,
+  "name": "Cristiano",
+  "bodega": "DV Catena",
+  "varietal": "Cabernet Malbec",
+  "description": "Etc",
+  "price": 1600,
+  "discount": 0.3,
+  "category": "tinto",
+  "image": [
+   "DV-CATENA-CABERNET SUAVIGNON-MALBEC.jpg"
+  ],
+  "visitado": false
+ },
+ {
+  "id": 5,
+  "name": "Cristiano",
+  "bodega": "DV Catena",
+  "varietal": "Malbec Malbec",
+  "description": "Etc",
+  "price": 3500,
+  "discount": 0,
+  "category": "tinto",
+  "image": [
+   "DV-CATENA-MALBEC-MALBEC.jpg"
+  ],
+  "visitado": true
+ },
+ {
+  "id": 6,
+  "name": "Cristiano",
+  "bodega": "Escorihuela Gascon",
+  "varietal": "Gran Reserva Chardonnay",
+  "description": "Etc",
+  "price": 2100,
+  "discount": 0.2,
+  "category": "tinto",
+  "image": [
+   "Escorihuela Gascon Gran Reserva Chardonnay.jpg"
+  ],
+  "visitado": false
+ },
+ {
+  "id": 7,
+  "name": "Cristiano",
+  "bodega": "Escorihuela Gascon",
+  "varietal": "Gran Reserva Malbec",
+  "description": "Etc",
+  "price": 1500,
+  "discount": 0.2,
+  "category": "tinto",
+  "image": [
+   "Escorihuela Gascon Gran Reserva Malbec.jpg"
+  ],
+  "visitado": false
+ },
+ {
+  "id": 8,
+  "name": "Cristiano",
+  "bodega": "Escorihuela Gascon",
+  "varietal": "Malbec Full",
+  "description": "Etc",
+  "price": 3500,
+  "discount": 0,
+  "category": "tinto",
+  "image": [
+   "Escorihuela Gascón Malbec Full.jpg"
+  ],
+  "visitado": false
+ },
+ {
+  "id": 9,
+  "name": "Probando esto de crear  ",
+  "bodega": "Mendoza  ",
+  "varietal": "blanco  ",
+  "price": "5000",
+  "discount": "10",
+  "category": "Blanco",
+  "description": "Cambie unas cosas nomas",
+  "image": [
+   "Product-img-1659131342881hola.jpg"
+  ]
+ }
+ 
 ]

@@ -4,8 +4,8 @@ const router = express.Router();
 
 // ************ Controller Require ************
 const productsController = require('../controllers/productsController');
-const upload = require('../middleware/middlemulter')
-
+const uploadPrep = require('../middleware/middlemulter')
+const upload = uploadPrep('products','Product')
 
 /*** GET ALL PRODUCTS ***/ 
 //router.get('/', productsController.index); 
@@ -21,7 +21,7 @@ router.get('/detail/:id', productsController.detail);
 
 /*** EDIT ONE PRODUCT ***/ 
 router.get('/edit/:id', productsController.edit); 
-router.put('/edit/:id', productsController.update); 
+router.put('/edit/:id',upload.array('image'), productsController.update); 
 
 
 /*** DELETE ONE PRODUCT***/ 

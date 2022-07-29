@@ -13,6 +13,6 @@ router.get('/login', userController.login);
 
 router.get('/register', userController.register);
 // array() para subir muchos archivos
-router.post('/', upload.array('image'), userController.store);
+//router.post('/', upload.array('image'), userController.store);
 
 module.exports = router;
