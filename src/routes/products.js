@@ -5,8 +5,8 @@ const router = express.Router();
 // ************ Controller Require ************
 const productsController = require('../controllers/productsController');
 const uploadPrep = require('../middleware/middlemulter')
-const upload = uploadPrep('products','Product')
-
+const upload = uploadPrep('products','Product')//Carpeta y entity
+console.log('pase por el productsRouter');
 /*** GET ALL PRODUCTS ***/ 
 //router.get('/', productsController.index); 
 

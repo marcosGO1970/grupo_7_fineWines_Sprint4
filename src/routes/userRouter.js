@@ -1,13 +1,13 @@
-//-----Require------//
+//-----Requires------//
 const express = require('express');
 const router= express.Router();
 
-
+// ************ Controller Require ************
 const userController = require ('../controllers/userController.js')
-const upload = require('../middleware/middlemulter')
+const uploadPrep = require('../middleware/middlemulter')
+const upload = uploadPrep('users','User')//Carpeta y entity
 
-
-console.log('estoy en el userRouter');
+console.log('pase por el userRouter');
 
 router.get('/login', userController.login);
 

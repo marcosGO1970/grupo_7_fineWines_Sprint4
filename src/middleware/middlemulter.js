@@ -1,6 +1,6 @@
 const multer = require('multer');
 const path = require('path')
-
+//Uso una funcion con Multer para poder pasarle la carpeta y el nombre del archivo segun lo que este usando
 function upload (folderName, entity) {
 
 const storage = multer.diskStorage({
@@ -12,8 +12,8 @@ const storage = multer.diskStorage({
     }
 });
 
-return multer({storage});
+return multer({storage});//Devuelvo Multer resuelto en la variable upload
 
 }
 
-module.exports = upload;
+module.exports = upload;//exporto la variable con Multer adentro

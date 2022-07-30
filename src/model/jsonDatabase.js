@@ -4,8 +4,8 @@ const path = require('path');
 
 
 const modelController = function (name) {
-    console.log('entre al modelo de Mercado')
-    console.log(name)
+    console.log('entre al modelo como: '+name)
+    
     console.log(path.resolve(__dirname, '../dataBase/', `${name}.json`))
     return {
         tablePath: path.resolve(__dirname, '../dataBase/', `${name}.json`),
