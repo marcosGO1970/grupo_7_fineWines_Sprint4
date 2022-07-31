@@ -1,5 +1,5 @@
 const jsonDB = require('../model/jsonDatabase.js');
-const productModel = jsonDB('users')
+const userModel = jsonDB('users')
 
 
 //Objeto literal userController
@@ -41,27 +41,18 @@ const userController = {
 	// Create -  Method to store
 	
 	store: (req, res) => {
-		// Acá se trata como un array de files
-		let imagenes= []
-// leo secuencialmente el array de fotos y las cargo en el array de imágenes
-//  puede ser que venga una sóla foto
-        for(let i = 0 ; i<req.files.length;i++){
-            imagenes.push(req.files[i].filename)
-        }
-
-		console.log(req.files);
-
-		// Atrapo todos los campos del formulario
-		const newProduct = {
+		
+		let imagen = req.file.filename
+		const newUser = {
 			...req.body,
 			// Si no mando imágenes pongo na por defecto
 			//image:req.files != undefined?imagenes:"default.jpg"
-			image: req.files.length >= 1  ? imagenes : ["default-image.png"]
+			image: req.file !== undefined ? imagen : "default-image.png"
+		};
 
-		}
-		productModel.create(newProduct)
-		console.log('cree un nuevo producto')
-		res.render('/index')
+		userModel.create(newUser)
+		console.log('cree un nuevo usuario')
+		res.redirect('/')
 	},
 
 

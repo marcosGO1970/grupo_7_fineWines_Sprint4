@@ -1,7 +1,10 @@
-//const path = require('path');
-//Fuentes de datos
-const products = require ('../dataBase/products.js')
+// requerimos el modelo para consultar la base de datos json
+const jsonDB = require('../model/jsonDatabase');
+// indicamos cual de las bases de datos queremos
+const productModel = jsonDB('products')
 
+
+const products = ProductModel.readfile()
 
 //Objeto literal mainController
 //Viene de mainRouter a cada modulo
