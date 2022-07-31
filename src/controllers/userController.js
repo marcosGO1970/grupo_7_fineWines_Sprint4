@@ -42,12 +42,12 @@ const userController = {
 	
 	store: (req, res) => {
 		
-		let imagen = req.file.filename
+		//let imagen = req.file.filename
 		const newUser = {
 			...req.body,
 			// Si no mando imágenes pongo na por defecto
 			//image:req.files != undefined?imagenes:"default.jpg"
-			image: req.file !== undefined ? imagen : "default-image.png"
+			image: req.file !== undefined ? req.file.filename : "default-image.png"
 		};
 
 		userModel.create(newUser)

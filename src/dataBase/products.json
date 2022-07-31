@@ -57,13 +57,13 @@
  },
  {
   "id": 5,
-  "name": "Cristiano",
-  "bodega": "DV Catena",
-  "varietal": "Malbec Malbec",
-  "description": "Etc",
-  "price": 3500,
-  "discount": 0,
-  "category": "tinto",
+  "name": "Cristiano ",
+  "bodega": "DV Catena ",
+  "varietal": "Malbec Malbec ",
+  "price": "3500",
+  "discount": "0",
+  "category": "Blanco",
+  "description": "Dos Malbec son mejor que uno!",
   "image": [
    "DV-CATENA-MALBEC-MALBEC.jpg"
   ],
@@ -71,13 +71,13 @@
  },
  {
   "id": 6,
-  "name": "Cristiano",
-  "bodega": "Escorihuela Gascon",
-  "varietal": "Gran Reserva Chardonnay",
-  "description": "Etc",
-  "price": 2100,
-  "discount": 0.2,
-  "category": "tinto",
+  "name": "Cristiano    ",
+  "bodega": "Escorihuela Gascon    ",
+  "varietal": "Gran Reserva Chardonnay    ",
+  "price": "2100",
+  "discount": "0.2",
+  "category": "",
+  "description": "Un blanco freshhhh",
   "image": [
    "Escorihuela Gascon Gran Reserva Chardonnay.jpg"
   ],
@@ -85,13 +85,13 @@
  },
  {
   "id": 7,
-  "name": "Cristiano",
-  "bodega": "Escorihuela Gascon",
-  "varietal": "Gran Reserva Malbec",
-  "description": "Etc",
-  "price": 1500,
-  "discount": 0.2,
-  "category": "tinto",
+  "name": "Cristiano ",
+  "bodega": "Escorihuela Gascon ",
+  "varietal": "Gran Reserva Malbec ",
+  "price": "1500",
+  "discount": "0.2",
+  "category": "",
+  "description": "Grand reserva como pocos...",
   "image": [
    "Escorihuela Gascon Gran Reserva Malbec.jpg"
   ],
@@ -99,13 +99,13 @@
  },
  {
   "id": 8,
-  "name": "Cristiano",
-  "bodega": "Escorihuela Gascon",
-  "varietal": "Malbec Full",
-  "description": "Etc",
-  "price": 3500,
-  "discount": 0,
-  "category": "tinto",
+  "name": "Cristiano ",
+  "bodega": "Escorihuela Gascon ",
+  "varietal": "Malbec ",
+  "price": "3500",
+  "discount": "0.1",
+  "category": "",
+  "description": "Simple pero gustoso",
   "image": [
    "Escorihuela Gascón Malbec Full.jpg"
   ],
