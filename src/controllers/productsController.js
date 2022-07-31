@@ -28,7 +28,6 @@ const controller = {
 		res.render('product-create-form')
 	},
 
-
 	// Create -  Method to store
 	
 	store: (req, res) => {
@@ -39,19 +38,18 @@ const controller = {
         for(let i = 0 ; i<req.files.length;i++){
             imagenes.push(req.files[i].filename)
         }
-
 		
 		console.log(req.files);
-
-	
 		
 		// Atrapo todos los campos del formulario
 
 		const newProduct = {
-			...req.body,
+			...req.body, // spread operator, inyecta campos del body del formulario y sus campos al new product
 			// Si no mando imágenes pongo na por defecto
 			//image:req.files != undefined?imagenes:"default.jpg"
-			image: req.files.length >= 1  ? imagenes : ["default-image.png"]
+			image: req.files.length >= 1  ? imagenes : ["default-image.png"],
+			
+			visitado: false
 
 		}
 

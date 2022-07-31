@@ -45,7 +45,7 @@ const modelController = function (name) {
             let rows = this.readFile();
             // Averiguo el último id y lo actualizo
             row.id = this.nextId();
-            row.visitado = false;
+            //row.visitado = false; 
             // Agrego en el array
             rows.push(row);
             // grabo el array en el archivo
