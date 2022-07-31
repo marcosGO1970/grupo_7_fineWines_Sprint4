@@ -87,8 +87,8 @@ const controller = {
 			id: productToEdit.id,
 			...req.body,
 		// Si se suben imagenes se pone como valor el array imagenes y sino se queda el que ya estaba antes
-		image: req.files.length >= 1  ? imagenes : productToEdit.image
-
+			image: req.files.length >= 1  ? imagenes : productToEdit.image,
+			visitado: productToEdit.visitado
 		}
 		console.log(productToEdit)
 		productModel.update(productToEdit)

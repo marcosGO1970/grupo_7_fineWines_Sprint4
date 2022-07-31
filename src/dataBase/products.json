@@ -1,27 +1,13 @@
 [
  {
-  "name": "Nuevo vino",
-  "bodega": "Mendoza",
-  "varietal": "Blanco",
-  "price": "5000",
-  "discount": "5",
-  "category": "Blanco",
-  "description": "dfshssg",
-  "image": [
-   "imgProduct_1659051961973hola.jpg"
-  ],
   "id": 1,
-  "visitado": false
- },
- {
-  "id": 1,
-  "name": "Angelica Zapata",
-  "bodega": "Angelica Zapata",
-  "varietal": "Malbec",
-  "description": "etc",
-  "price": 2500,
-  "discount": 0,
-  "category": "tinto",
+  "name": "Angelica Zapata  ",
+  "bodega": "Angelica Zapata  ",
+  "varietal": "Malbec  ",
+  "price": "2500",
+  "discount": "0",
+  "category": "",
+  "description": "El mejor Malbec de Mendoza, pura cepa de los andes",
   "image": [
    "Angelica Zapata Malbec Alta X 750cc. (full).jpg"
   ],
@@ -124,19 +110,6 @@
    "Escorihuela Gascón Malbec Full.jpg"
   ],
   "visitado": false
- },
- {
-  "id": 9,
-  "name": "Probando esto de crear  ",
-  "bodega": "Mendoza  ",
-  "varietal": "blanco  ",
-  "price": "5000",
-  "discount": "10",
-  "category": "Blanco",
-  "description": "Cambie unas cosas nomas",
-  "image": [
-   "Product-img-1659131342881hola.jpg"
-  ]
  }
- 
+
 ]
