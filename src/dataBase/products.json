@@ -15,13 +15,13 @@
  },
  {
   "id": 2,
-  "name": "José Rioja",
-  "bodega": "Sebastian Zuccardi",
-  "varietal": "Cara Sur Rosado",
-  "description": "Etc",
-  "price": 1800,
-  "discount": 0.2,
-  "category": "tinto",
+  "name": "José Rioja   ",
+  "bodega": "Sebastian Zuccardi   ",
+  "varietal": "Cara Sur Rosado   ",
+  "price": "1800",
+  "discount": "0",
+  "category": "",
+  "description": "Un rosado pipi cucu!!!",
   "image": [
    "Cara Sur Rosado - Sebastian Zuccardi - Vino Barreal San Juan.jpg"
   ],
@@ -29,13 +29,13 @@
  },
  {
   "id": 3,
-  "name": "Patricia Lucas",
-  "bodega": "Salentein",
-  "varietal": "Espumante Brut Rose",
-  "description": "Etc",
-  "price": 1600,
-  "discount": 0.2,
-  "category": "tinto",
+  "name": "Patricia Lucas ",
+  "bodega": "Salentein ",
+  "varietal": "Espumante Brut Rose ",
+  "price": "1600",
+  "discount": "0",
+  "category": "",
+  "description": "La mejor champaña del pais!!!",
   "image": [
    "Champagne Salentein Espumante Brut Rose 750cc.jpg"
   ],
@@ -43,13 +43,13 @@
  },
  {
   "id": 4,
-  "name": "Cristiano",
-  "bodega": "DV Catena",
-  "varietal": "Cabernet Malbec",
-  "description": "Etc",
-  "price": 1600,
-  "discount": 0.3,
-  "category": "tinto",
+  "name": "Cristiano ",
+  "bodega": "DV Catena ",
+  "varietal": "Cabernet Malbec ",
+  "price": "1600",
+  "discount": "0.3",
+  "category": "",
+  "description": "Blend magico",
   "image": [
    "DV-CATENA-CABERNET SUAVIGNON-MALBEC.jpg"
   ],
@@ -111,5 +111,4 @@
   ],
   "visitado": false
  }
-
 ]

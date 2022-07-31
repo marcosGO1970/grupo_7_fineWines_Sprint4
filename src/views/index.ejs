@@ -49,13 +49,13 @@
             <span>Ofertas</span>
             </div>
             <div class="products">
-                <% products.forEach(product => { if(product.descuento > 0){%>
+                <% products.forEach(product => { if(product.discount > 0){%>
                     <article class="articulo">
                         <a href="/productDetail/<%= product.id %>"><img src="/images/<%= product.image %>" class="product_img"></a>
                         <div class="detalle">
                             <div class="price-and-discount">
                                 <p class="price">$<%= product.price %></p>
-                                <p class="discount"><%= product.descuento*100 + '% OFF' %></p>
+                                <p class="discount"><%= product.discount*100 + '% OFF' %></p>
                                 <i class="fa-solid fa-cart-shopping"></i>
                             </div>
                                 <div>
