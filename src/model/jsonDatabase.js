@@ -81,6 +81,7 @@ const modelController = function (name) {
             });
 
             this.writeFile(updatedRows);
+            
         },
 
         visited: function () {

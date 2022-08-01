@@ -10,6 +10,7 @@ const products = productModel.readFile()
 //Viene de mainRouter a cada modulo
 const mainController = {
     index: (req,res) => {
+        const products = productModel.readFile()
         res.render('index', {products});
     },
     productCart: (req,res) => {

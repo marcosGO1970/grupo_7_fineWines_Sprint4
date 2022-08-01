@@ -10,8 +10,25 @@ body{
 p{
     font-size: 12px;
 }
-
-
+/*****Botones Editar y Eliminar *******/
+.action-button.edit {
+    background-color: chocolate;
+}
+.action-button {
+    font-family: 'Poppins', 'Roboto', sans-serif;;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2em;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+.action-button.delete {
+    background-color: rgb(248, 69, 37);
+}
 section.banner div{
     width: 100%;
     position: relative;
