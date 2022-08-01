@@ -24,7 +24,7 @@
             <div class="products">
                 <% products.forEach(product => {if(product.visitado == true){%>
                     <article class="articulo">
-                        <a href="/productDetail/<%= product.id %>"><img src="/images/<%= product.image %>" class="product_img"></a>
+                        <a href="/productDetail/<%= product.id %>"><img src="images/products/<%= product.image %>" class="product_img"></a>
                         <div class="detalle">
                             <div class="price-and-discount">
                                 <p class="price">$<%= product.price %></p>
@@ -51,7 +51,7 @@
             <div class="products">
                 <% products.forEach(product => { if(product.discount > 0){%>
                     <article class="articulo">
-                        <a href="/productDetail/<%= product.id %>"><img src="/images/<%= product.image %>" class="product_img"></a>
+                        <a href="/productDetail/<%= product.id %>"><img src="/images/products/<%= product.image %>" class="product_img"></a>
                         <div class="detalle">
                             <div class="price-and-discount">
                                 <p class="price">$<%= product.price %></p>

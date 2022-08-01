@@ -12,7 +12,7 @@ p{
 }
 /*****Botones Editar y Eliminar *******/
 .action-button.edit {
-    background-color: chocolate;
+    background-color: black;
 }
 .action-button {
     font-family: 'Poppins', 'Roboto', sans-serif;;
@@ -23,7 +23,7 @@ p{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 10px 30px;
+    padding: 3px 30px;
     margin-top: 15px;
 }
 .action-button.delete {
@@ -33,7 +33,10 @@ section.banner div{
     width: 100%;
     position: relative;
 }
-
+article img {
+    max-width: 60%;
+    margin-left: 20%;
+}
 section.banner div p{
     width: 100%;
     position: absolute;

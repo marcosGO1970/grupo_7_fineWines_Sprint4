@@ -57,15 +57,15 @@
  },
  {
   "id": 5,
-  "name": "Cristiano ",
-  "bodega": "DV Catena ",
-  "varietal": "Malbec Malbec ",
+  "name": "Cristiano  ",
+  "bodega": "DV Catena  ",
+  "varietal": "Malbec Malbec  ",
   "price": "3500",
   "discount": "0",
   "category": "Blanco",
   "description": "Dos Malbec son mejor que uno!",
   "image": [
-   "DV-CATENA-MALBEC-MALBEC.jpg"
+   "Product-img-1659386486429hola.jpg"
   ],
   "visitado": true
  },
