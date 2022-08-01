@@ -18,7 +18,7 @@
             <div class="tipo-vino1">
                <ul class="lista-vino">
                 <li class="detalle-lista"><%= product.varietal %></li>
-                <!--<li class="detalle-lista"><%= product.bodega %></li>-->
+                <li class="detalle-lista"><%= product.bodega %></li>
                </ul>
             </div>
             <div class="miscelanea">
@@ -30,7 +30,9 @@
             <div class="caja-carrito">
                 <div class="precio-descuento">
                     <p class="precio">$ <%= product.price %></p>
-                    <p class="descuento"><%= product.discount*100 %> % OFF</p>
+                    <% if(product.discount > 0){%>
+                        <p class="descuento"><%= product.discount*100 + '% OFF' %></p>
+                        <%}%>
                 </div><br><br>
                 <div class="carrito">
                     

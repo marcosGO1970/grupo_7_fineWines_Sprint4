@@ -131,14 +131,13 @@ article i{
     border: none;
     width: 100%;
     margin-left: 1%;
-    color: rgb(207, 206, 206);
+    color: white;
     font-size:18px;
-    background:linear-gradient(to right ,#000000,#0d0c52,#131c3a);
+    background:black;
     padding:8px;
     margin: auto;
     border-radius: 6px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px #5c2e6e;
 }
 .button:hover{
     background:#2757ff;

@@ -43,12 +43,12 @@
  },
  {
   "id": 4,
-  "name": "Cristiano ",
-  "bodega": "DV Catena ",
-  "varietal": "Cabernet Malbec ",
+  "name": "Cristiano  ",
+  "bodega": "DV Catena  ",
+  "varietal": "Cabernet Malbec  ",
   "price": "1600",
   "discount": "0.3",
-  "category": "",
+  "category": "Tinto",
   "description": "Blend magico",
   "image": [
    "DV-CATENA-CABERNET SUAVIGNON-MALBEC.jpg"
