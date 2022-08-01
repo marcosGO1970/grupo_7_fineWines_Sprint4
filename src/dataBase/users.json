@@ -82,5 +82,17 @@
   "confirmPassword": "12444",
   "image": "default-image.png",
   "id": 7
+ },
+ {
+  "nombres": "John ",
+  "apellidos": "Doe",
+  "nombreUsuario": "JuanNN",
+  "email": "hola@hotmail.com",
+  "fechaNacimiento": "2022-08-10",
+  "domicilio": "Nuevo User",
+  "password": "1234",
+  "confirmPassword": "1244",
+  "image": "User-img-1659388459951hola.jpg",
+  "id": 8
  }
 ]

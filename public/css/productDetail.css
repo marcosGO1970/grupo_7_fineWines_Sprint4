@@ -155,6 +155,8 @@ ul{
        max-width: 30%;
         float:left;
         max-height: 500px;
+        margin-left: 0;
+        margin-right:  5% ;
     }
     .main-article{
         width: 50%;

@@ -6,7 +6,7 @@
   "varietal": "Malbec  ",
   "price": "2500",
   "discount": "0",
-  "category": "",
+  "category": "Tinto",
   "description": "El mejor Malbec de Mendoza, pura cepa de los andes",
   "image": [
    "Angelica Zapata Malbec Alta X 750cc. (full).jpg"
@@ -99,9 +99,9 @@
  },
  {
   "id": 8,
-  "name": "Cristiano ",
-  "bodega": "Escorihuela Gascon ",
-  "varietal": "Malbec ",
+  "name": "Cristiano  ",
+  "bodega": "Escorihuela Gascon  ",
+  "varietal": "Malbec  ",
   "price": "3500",
   "discount": "0.1",
   "category": "",
