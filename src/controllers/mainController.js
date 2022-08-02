@@ -4,7 +4,7 @@ const jsonDB = require('../model/jsonDatabase');
 const productModel = jsonDB('products')
 
 
-const products = productModel.readFile()
+//const products = productModel.readFile()
 //console.log(products);
 //Objeto literal mainController
 //Viene de mainRouter a cada modulo
@@ -24,6 +24,7 @@ const mainController = {
     },
     productDetail: (req,res) => {
         const id = Number(req.params.id);
+        const products = productModel.readFile()
         const product = products.find( product => product.id === id);
 
         res.render('productDetail', {product});
